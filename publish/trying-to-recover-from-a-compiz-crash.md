@@ -1,0 +1,9 @@
+Title: Trying to Recover From A Compiz Crash
+Date: 2009-08-29 11:14:34
+Tags: linux,ubuntu
+
+(Warning, I really have no idea what I'm talking about here, especially tty)
+
+Yesterday Compiz crashed, probably seg faulted. I managed to restart it but then Cario (which Compiz was using) seg faulted. I ended up restart the X server. But just now Compiz crashed again. Most of the time when it crashes all is well it uses the default window manager without the flashy Compiz effects, but this time didn't, I couldn't move windows at all and there were no decorations. I could click launch icons on my top Gnome panel, but whenever I opened up a terminal I could not enter any text although I could still interact with it with the mouse (ie. use menu bars). I ended up (since my web browser was still displaying stuff) typing compiz into a text area in Firefox and selecting it, so I could middle click paste it. Then I created a custom application launcher in my Gnome panel, middle click pasted the command compiz and then I could click that one in the Gnome panel to start compiz again. All was fixed.
+
+But there is something I still can't find the answer for. I tried going into a different tty using Ctrl+Alt+F1, but trying to run compiz in tty1 failed because it was "unable to open display """ and also "no xterm found". What I wanted to do was start a process in tty1 for tty7. I have no clue how to do that. Any ideas? I endeavour to learn more about the X Window System. Oh and if all else failed I could have restarted the X server, but then I loose a lot of stuff in RAM (such as things I haven't saved).

@@ -1,0 +1,8 @@
+Title: Slippy Map Tilenames For Non-North [Isometric] Web Maps
+Date: 2010-11-28 14:01:19
+Tags: nearmap,osm
+
+I made this image to help my understand a slippy map tile naming system for maps that don't always point North (it turns out nothing changes in terms of the tile numbering, you just have to apply additional view space transformations).  This is how Nearmap does it, and when I get around to putting up http://osm.kyblsoft.cz/3dmapa/ like tiles of Sydney I will endeavor to use the same system (in other words you put your code to view the other views in your map viewer application, rather than just change the tile numbering so that you can use existing code for all the views). It doesn't really change anything here if we have square or non-square tiles, the tile numbers and true coordinates don't change because of this. Keep in mind that all the points  of tile z/y/x for any of these views will be the geographic location, the views just have a different view space translation.
+
+[caption id="attachment_1227" align="aligncenter" width="600" caption="Diagram CC BY-SA. Map tiles CC BY-SA based on CC BY-SA data from www.openstreetmap.org."]<a href="/blog/attachments/2010/11/isometric_tiles.png"><img class="size-full wp-image-1227" title="North South East West Tilenames" src="/blog/attachments/2010/11/isometric_tiles.png" alt="Tile names for Noth, South, East and West views" width="600" height="586" /></a>[/caption]
+<p style="text-align:left;">see also: <a href="http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames">http://wiki.openstreetmap.org/wiki/Slippy_map_tilenames</a></p>

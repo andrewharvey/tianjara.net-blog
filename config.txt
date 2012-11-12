@@ -1,0 +1,21 @@
+blog_title = Andrew Harvey's Blog
+url_prefix = /blog/
+author = andrew.harvey4@gmail.com
+input = publish
+format = markdown
+pattern = *.md
+
+lower-case = yes
+recent-tags-first = yes
+recent-dates-first = yes
+
+# allow comments
+comment-days = 0
+comments = ./comments/
+
+date-archive-path = yes
+
+theme=tianjara.net
+theme-dir=themes
+
+no-calendar = yes

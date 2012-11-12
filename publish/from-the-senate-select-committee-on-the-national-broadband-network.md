@@ -1,0 +1,13 @@
+Title: From the Senate Select Committee on the National Broadband Network...
+Date: 2009-10-22 18:54:55
+Tags: politics
+
+From the<strong><strong> </strong></strong><a href="http://www.aph.gov.au/Senate/committee/broadband_ctte/index.htm">Senate Select Committee on the National Broadband        Network</a>, (Wed, 7 Oct 2009, <a href="http://www.aph.gov.au/hansard/senate/commttee/S12427.pdf">Page 66 of the Transcript</a>),
+<blockquote><strong>CHAIR—</strong>The committee looks forward to hearing from Professor Gans. Professor, as you are aware, the proceedings today are public. The evidence you are about to give is protected by parliamentary privilege. It is potentially unlawful and in contempt of the Senate process for anybody to attempt to interfere with evidence that would otherwise be given, as indeed it is to give potentially false or misleading evidence. Can you state your name, rank and serial number for the record, please.
+
+<strong>Prof. Gans—</strong>I am a professor of management information economics at Melbourne Business School—serial number whatever!
+
+<strong>CHAIR—</strong>007, perhaps! Do you wish to amend your submission?</blockquote>
+Anyhow, further on in the proceedings Senator Macdonald says,
+<blockquote><strong>Senator IAN MACDONALD—</strong>Again, those are matters of opinion. I thought that the previous witness made a very good case, with respect. The thing that concerns me is that Telstra and Optus have services which are pretty good for most Australians apart from those of us who live in the regions. I cannot understand how you can spend an additional $43 billion and still compete with what is already there.</blockquote>
+What! "...Telstra and Optus have services which are pretty good for most Australians..."? http://www.bigpond.com/internet/plans/adsl/plans-and-offers/ says ADSL2+ with a quota of 600MB (additional usage charged at $0.15/MB) for $59.95 a month, with a minimum cost over 12 months of $1267.80. Compare this with say Internode which for the same price gives 35 Gbytes, TPG for an extra 4 cents a month will get you 50GB peak + 50GB off peak (167 times the quota Telstra will give you), and iiNet will give you 10GB peak + 25GB off peak for the same price per month. Ignoring all those extras that come along with different contracts (eg. iiNet/Internode have a mirror of large amounts of software, technical support ladada...) (okay, maybe "most Australians" find that "Free network anti-virus and anti-spam security" more important than having a data quota 167 times larger, but not me) I, and I'm sure many other people would disagree that Telstra provides a service which is "pretty good for most Australians".
