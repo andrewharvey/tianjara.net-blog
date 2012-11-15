@@ -3,14 +3,25 @@
 	<channel>
 		<title><!-- tmpl_var name='blog_title' escape='html' --> - Entries tagged <!-- tmpl_var name='tagname' escape='html' --></title>
 		<description>Entries tagged <!-- tmpl_var name='tagname' escape='html' --></description>
-                <link><!-- tmpl_var name='top' --></link>
-
+		<link>//tianjara.net<!-- tmpl_var name='top' --></link>
+		<atom:link href="//tianjara.net<!-- tmpl_var name='top' -->index.rss" rel="self" type="application/rss+xml" />
+		<language>en-au</language>
+		<copyright>The content on this blog by Andrew Harvey, unless otherwise noted is licensed under a Creative Commons Attribution 3.0 Australia License.</copyright>
+		<managingEditor><!-- tmpl_var name='author' --></managingEditor>
+		<webMaster><!-- tmpl_var name='author' --></webMaster>
+		<generator>Chronicle</generator>
+		<image>
+			<url><!-- tmpl_var name='top' -->img/blog-icon.png</url>
+			<title><!-- tmpl_var name='blog_title' escape='html' --></title>
+			<link>//tianjara.net<!-- tmpl_var name='top' --></link>
+		</image>
 	<!-- tmpl_loop name="entries" -->
 	<item>
 		<title><!-- tmpl_var name="title" escape='html' --></title>
 		<link><!-- tmpl_var name='top' --><!-- tmpl_var name='link' --></link>
 		<guid isPermaLink="true"><!-- tmpl_var name='top' --><!-- tmpl_var name='link' --></guid>
                 <pubDate><!-- tmpl_var name='pubdate' --></pubDate>
+                <author><!-- tmpl_var name='author' --></author>
 		<description><!-- tmpl_var name="body" escape='html' --></description>
 	</item>
 	<!-- /tmpl_loop -->
