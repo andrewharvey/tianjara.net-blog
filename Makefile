@@ -20,5 +20,6 @@ deploy :
 	    --verbose \
 	    --copy-links \
 	    --compress \
-	    --delete output/* \
+	    --delete \
+	    output/* \
 	    root@tianjara:/var/www/blog/
