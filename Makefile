@@ -1,6 +1,6 @@
 
 build : 
-	chronicle --config=config.txt --verbose --no-cache
+	chronicle --config=config.txt --verbose
 
 	# because we would like to be able to wipe the output directory and do a
 	# complete rebuild, static resources must be stored externally so they
