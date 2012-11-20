@@ -5,8 +5,8 @@ build :
 	# because we would like to be able to wipe the output directory and do a
 	# complete rebuild, static resources must be stored externally so they
 	# aren't wiped
-	ln -s -T ../img output/img
-	ln -s -T ../attachments output/attachments
+	[ -h output/img ] || ln -s -T ../img output/img
+	[ -h output/attachments ] || ln -s -T ../attachments output/attachments
 
 clean :
 	rm -rf output
