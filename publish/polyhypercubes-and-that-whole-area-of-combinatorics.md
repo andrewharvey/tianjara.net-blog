@@ -2,7 +2,7 @@ Title: Polyhypercubes and That Whole Area of Combinatorics...
 Date: 2012-02-04 11:09:21
 Tags: mathematics
 
-<em>I've pull this post from my Draft Archives from July 2010. I think it is about time I post it.</em>
+<em>I've pulled this post from my draft archives from July 2010. I think it is about time I post it.</em>
 
 I stumbled upon Tetris the other day and began to wonder about the pieces, which lead me to stumble into a whole area of maths that I didn't know had been documented: polyforms.
 
@@ -14,7 +14,8 @@ You can extrapolate this concept to nD hypercubes with the principle that each n
 
 We shall also say that polyhypercubes are the same if we can rotate (or mirror as well, depending on your definition of equality) them to match exactly. Note that if you are looking at the set of all poly-n-cubes for some n, the total size will vary depending whether you decide to allow mirroring (...although mirroring is the same as allowing rotation in a dimension 1 higher than the dimension of the space).
 
-[caption id="attachment_1050" align="aligncenter" width="349" caption="Two pentacubes which are the same if you count mirroring as an allowed operation when testing for equality, but not the same if you don&#039;t (you can&#039;t rotate one to fall on the other)."]<a href="/blog/attachments/2010/02/two-mirror-image-pentacubes.png"><img class="size-full wp-image-1050" title="two-mirror-image-pentacubes" src="/blog/attachments/2010/02/two-mirror-image-pentacubes.png" alt="Two pentacubes which are the same if you count mirroring as an allowed operation when testing for equality, but not the same if you don't (you can't rotate one to fall on the other)." width="349" height="147" /></a>[/caption]
+<a href="/blog/attachments/2010/02/two-mirror-image-pentacubes.png"><img class="size-full wp-image-1050" title="two-mirror-image-pentacubes" src="/blog/attachments/2010/02/two-mirror-image-pentacubes.png" alt="Two pentacubes which are the same if you count mirroring as an allowed operation when testing for equality, but not the same if you don't (you can't rotate one to fall on the other)." width="349" height="147" /></a>
+> Two pentacubes which are the same if you count mirroring as an allowed operation when testing for equality, but not the same if you don&#039;t (you can&#039;t rotate one to fall on the other)."
 
 To generate these shapes you can start with one cube, from this you can make a graph where you add one block to every possible place. You can turn this into a directed graph, where an edge indicates you can get one shape by adding another cube to the previous shape. Perhaps this can be extended to a hypergraph, where two shapes are linked if you can morph from one to another by moving just one block (square, cube...)?
 

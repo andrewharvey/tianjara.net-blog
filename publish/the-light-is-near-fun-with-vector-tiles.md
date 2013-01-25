@@ -1,4 +1,4 @@
-Title: The light in near: Fun with vector tiles
+Title: The light is near: Fun with vector tiles
 Tags: geo
 Date: 2012-11-20
 
