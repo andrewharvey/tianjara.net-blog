@@ -1,6 +1,6 @@
 Title: COMP3421 - Lec 1 - Colour
 Date: 2009-08-22 09:29:25
-Tags: cs3421,graphics
+Tags: comp3421,graphics
 
 <h2>Colour</h2>
 Pure spectral light, is where the light source has just one single wavelength. This forms monochromatic (or pure spectral) colours.

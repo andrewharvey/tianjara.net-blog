@@ -1,6 +1,6 @@
 Title: COMP3421 - Lec 2 - Transformations
 Date: 2009-08-23 16:10:53
-Tags: cs3421,graphics
+Tags: comp3421,graphics
 
 <h2>Homogeneous Coordinates</h2>
 Interestingly we can use the extra dimension in homogeneous coordinates to distinguish a point from a vector. A point will have a 1 in the last component, and a vector will have a 0. The difference between a point and a vector is a bit wish washy in my mind so I'm not sure why this distinction helps.
