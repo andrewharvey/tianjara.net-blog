@@ -1,0 +1,83 @@
+% To the extent possible under law, the person who associated CC0
+% with this work has waived all copyright and related or neighboring
+% rights to this work.
+% http://creativecommons.org/publicdomain/zero/1.0/
+
+\documentclass[a4paper,10pt]{article}
+\usepackage{verbatim} 
+\usepackage{amsmath}
+\usepackage{amssymb}
+\setlength\parindent{0mm}
+\usepackage{fullpage}
+\usepackage{array}
+\usepackage[all]{xy}
+
+\usepackage[pdftex,
+            pdfauthor={Andrew Harvey},
+            pdftitle={MATH1081 Cheat sheet 2008},
+            pdfsubject={},
+            pdfkeywords={}]{hyperref}
+
+\begin{document}
+
+\section*{Enumeration}
+\subsection*{Counting Methods}
+Let $\#(n)$ denote the number of ways of doing $n$ things. Then,
+$$\#(A\; \mbox{and}\; B) = \#(A) \times \#(B)$$
+$$\#(A\; \mbox{or}\; B) = \#(A) + \#(B)$$
+
+($n$ items, $r$ choices)\\
+Ordered selection with repetition, $n^r$.\\
+
+Ordered selection without repetition, $P(n,r) = \frac{n!}{(n-r)!}$.\\
+
+Unordered selection without repetition, $C(n,r) = \frac{P(n,r)}{r!}$.\\
+
+$|A \cup B| = |A| + |B| - |A \cap B|$\\
+
+Ordered selection with repeition; WOOLLOOMOOLOO problem.\\
+
+Unordered selection with repetition; dots and lines,
+$$\binom{n+r-1}{n-1}$$
+
+Pigeonhole principle. If you have n holes and more than n objects, then there must be at least 1 hole with more than 1 object.
+
+Multinomial--\\
+$$\frac{1081!}{2!10!25!32!}$$
+
+\section*{Recurrences}
+\subsection*{Formal Languages}
+$\lambda$ represents the \textit{empty word}.
+$w$ is just a variable (it is not part of the language)
+
+\subsection*{First Order Homogeneous Case}
+The recurrence,\\
+\begin{center}$a_n = ra_{n-1}$ with $a_0=A$\\\end{center}
+has solution\\
+$$a_n=Ar^n.$$
+
+\subsection*{Second Order Recurrences}
+$$a_n + pa_{n-1} + qa_{n-2} = 0$$
+has characteristic,
+$$r^2 + pr + q = 0$$
+If $\alpha$ and $\beta$ are the solutions to the characteristic equation, and if they are real and $\alpha \ne \beta$ then,
+$$a_n = A\alpha^n + B\beta^n.$$
+If $\alpha = \beta$ then,
+$$a_n = A\alpha^n + Bn\beta^n.$$
+
+\subsection*{Non-Homogeneous}
+Solution to homogeneous case plus particlar solution.\\
+Guess a particular solution in a similar form then substitue, $a_n = p_n$.\\
+Remember that $2^{n-3}=\frac{2^n}{2^3}$.
+
+\subsection*{Guesses for a particular solution}
+\begin{tabular}{c|c}%{m{width} | m{width}}
+ LHS & Guess \\ \hline
+$3$ & c \\
+$3n$ & $cn + d$\\
+$3\times 2^n$ & $c2^n$\\
+$3n2^2$ & $(cn+d)2^n$\\
+$(-3)^n$ & $c(-3)^n$\\
+\end{tabular} 
+
+\end{document}
