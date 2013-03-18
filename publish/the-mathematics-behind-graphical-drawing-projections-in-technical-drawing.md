@@ -110,4 +110,6 @@ $latex y' = z + x \sin \alpha + y \sin \beta$</p>
 $latex y' = S_z z + S_x x\sin\alpha + S_y y \sin \beta$</p>
 <p style="text-align:left;">This can now easily be transferred into matrix form as shown at the start of this derivation or left as is.</p>
 <p style="text-align:left;"><strong>References:
-</strong>Harvey, A. (2007). <em>Industrial Technology - Graphics Industries 2007 HSC Major Project Management Folio</em>. (<a href="http://drop.io/iwxdxm6/asset/itg-majorproject-2007-managementfolio-jul09-pdf">Link</a>)</p>
+</strong>Harvey, A. (2007). <em>Industrial Technology - Graphics Industries 2007
+HSC Major Project Management Folio</em>. (<a
+href="//tianjara.net/hsc/itg-major-work/ITG_MajorProject_2007_ManagementFolio_Jul09.pdf">Link</a>)</p>
