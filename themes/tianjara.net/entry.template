@@ -11,6 +11,8 @@
 <!-- tmpl_unless name='no_comments' -->
     <link rel="alternate" title="Comment Feed" href="<!-- tmpl_var name='basename' -->.rss" type="application/rss+xml" />
 <!-- /tmpl_unless -->
+
+    <!-- tmpl_include name='mathjax-header.inc' -->
   </head>
   <body>
     <!-- tmpl_include name='header.inc' -->

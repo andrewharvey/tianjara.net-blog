@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="<!-- tmpl_var name='top' -->vim.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="/javascript/twitter-bootstrap/css/bootstrap.css" />
     <link rel="alternate" title="RSS Feed" href="<!-- tmpl_var name='month' escape='html' -->.rss" type="application/rss+xml" />
+
+    <!-- tmpl_include name='mathjax-header.inc' -->
   </head>
   <body>
     <!-- XML FEED -->
